@@ -35,10 +35,10 @@ $ python vault2keepass.py -k -v <Vault-URL> -rurl <Répertoire vault de stockage
 * Pensez à bien stocker les fichiers keepass sous le répertoire: keepassfiles/keepass2vault
 * Pensez à bien stocker les fichiers keepass keyfile sous le répertoire: keepassfiles/keys
 * Variable Obligatoires:
-** -v "Vault-URL" 
-** -t "Token" où bien -rid "Role id" -sid "Secret id"
-** -rurl "Répertoire de stockage dans Vault"
-** -aurl "URL Vault d'authentification" si on ne fournit pas le Token
+1. -v "Vault-URL" 
+2. -t "Token" où bien -rid "Role id" -sid "Secret id"
+3. -rurl "Répertoire de stockage dans Vault"
+4. -aurl "URL Vault d'authentification" si on ne fournit pas le Token
 
 * NB: Si on ne fournit pas le mot passe, le mot de passe par défaut pour le fichier KeePass qui va être crée est "123456789".
 
@@ -56,11 +56,11 @@ $ python keepass2vault.py <nom du fichier keepass>.kdbx -k -v <Vault-URL> -rurl 
 * Vous trouverez les nouveaux fichiers keepass stockées sous le répertoire: keepassfiles/keepass2vault
 * Pensez à bien stocker les fichiers keepass keyfile sous le répertoire: keepassfiles/keys
 * Variable Obligatoires:
-** "nom du fichier keepass".kdbx
-** -v "Vault-URL" 
-** -t "Token" où bien -rid "Role id" -sid "Secret id"
-** -rurl "Répertoire de stockage dans Vault"
-** -aurl "URL Vault d'authentification" si on ne fournit pas le Token
-** -p "mot de passe du fichier KeePass"
+1. "nom du fichier keepass".kdbx
+2. -v "Vault-URL" 
+3. -t "Token" où bien -rid "Role id" -sid "Secret id"
+4. -rurl "Répertoire de stockage dans Vault"
+5. -aurl "URL Vault d'authentification" si on ne fournit pas le Token
+6. -p "mot de passe du fichier KeePass"
 
 * NB: La variable "-d" permet la suppression de la Répertoire de stockage dans Vault si elle existe déjà.
