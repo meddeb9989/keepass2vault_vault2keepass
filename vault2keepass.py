@@ -589,7 +589,7 @@ if __name__ == '__main__':
         '-f', '--keyfile',
         required=False,
         help='Keyfile to unlock the KeePass database \
-        \nDeposit Directory: keepassfiles/keys'
+        Deposit Directory: keepassfiles/keys'
     )
     __parser__.add_argument(
         '-t', '--token',
