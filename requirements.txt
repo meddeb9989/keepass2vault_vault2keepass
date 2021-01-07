@@ -9,7 +9,7 @@ future==0.17.1
 hvac==0.7.2
 idna==2.8
 libkeepass==0.3.0
-lxml==4.3.1
+lxml==4.6.2
 pycparser==2.19
 pycryptodome==3.7.3
 pykeepass==3.0.3
